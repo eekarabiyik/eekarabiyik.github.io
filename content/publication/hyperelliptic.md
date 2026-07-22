@@ -18,4 +18,5 @@ publication_short = "In preparation"   # this is the tag shown on the site
 urls = [
 #  { tag = "arXiv", icon = "ai ai-arxiv", url = "https://arxiv.org/abs/XXXX.XXXXX" },
 #  { tag = "PDF", icon = "fa fa-file-pdf", url = "files/paperN.pdf" },
+]
 +++
