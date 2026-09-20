@@ -14,6 +14,6 @@ publication_short = "In preparation"
 url = "files/7adic_abstract.pdf"
 
 urls = [
-  { tag = "PDF", icon = "fa fa-file-pdf", url = "files/7adic_abstract.pdf" },
+  { tag = "Abstract", icon = "fa fa-file-pdf", url = "files/7adic_abstract.pdf" },
 ]
 +++
