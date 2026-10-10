@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} | Eray Karabiyik{% endblock title %}
+
+{% block content %}
+<h1 class="title">{{ page.title }}</h1>
+<div class="post">
+  {{ page.content | safe }}
+</div>
+{% endblock content %}

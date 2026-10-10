@@ -1,6 +1,6 @@
 +++
 title = "Classifying Rationally Hyperelliptic and Trigonal Modular Curves"
-date = 2026-07-01        # controls ordering — newest shows on top
+date = 2025-12-01        # controls ordering — newest shows on top
 draft = false
 
 [extra]

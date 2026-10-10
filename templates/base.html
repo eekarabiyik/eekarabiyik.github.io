@@ -6,7 +6,7 @@
   <meta name="author" content="Eray Karabiyik">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google-site-verification" content="1N6zZ5WRlyaXpO8o3OKzwI7t9wr2vfhgmbSu2Up63tY" />
-  <title>Eray Karabiyik</title>
+  <title>{% block title %}Eray Karabiyik{% endblock title %}</title>
 
   <link rel="stylesheet" href={{ get_url(path="css/normalize.css" ) }}>
   <link rel="stylesheet" href={{ get_url(path="css/default.css" ) }}>
@@ -20,6 +20,10 @@
 <body>
   <header>
     <h1 class="name"><a class="unstyled-link" href="/">Eray Karabiyik</a></h1>
+    <nav aria-label="Main navigation">
+      <a class="nav-item" href="{{ get_url(path="/") }}">Home</a>
+      <a class="nav-item" href="{{ get_url(path="philosophy/") }}">Philosophy</a>
+    </nav>
   </header>
   <section class="section">
     <div class="container">
